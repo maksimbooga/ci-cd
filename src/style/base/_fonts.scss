@@ -4,6 +4,11 @@
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
 
+@font-face {
+  font-family: 'Montserrat Alternates';
+  font-display: swap;
+}
+
 h2 {
   color: variables.$green-dark;
   font-size: 40px;
