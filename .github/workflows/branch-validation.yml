@@ -1,0 +1,19 @@
+name: Branch Name Validation
+
+on:
+  push:
+    branches-ignore:
+      - "main"
+
+jobs:
+  validate-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check branch name
+        run: |
+          BRANCH_NAME="${GITHUB_REF_NAME}"
+          if [[ ! "$BRANCH_NAME" =~ ^feature/.*$ ]]; then
+            echo "::error::XXX Branch name must start with 'feature/'. Current: $BRANCH_NAME"
+            exit 1
+          fi

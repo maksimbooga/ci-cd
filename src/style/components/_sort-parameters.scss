@@ -19,8 +19,8 @@
   &__down {
     width: 18px;
     height: 18px;
-    background: url('assets/svg/up.svg') center center/contain no-repeat;
-    opacity: 0.3;
+    background: #1a1a1a url('assets/svg/up.svg') no-repeat center;
+    opacity: 0.7;
     cursor: pointer;
     transition: 0.5s;
     &:hover {
@@ -31,7 +31,8 @@
   &__down {
     transform: rotate(180deg);
     margin-left: -2px;
-    background: url('assets/svg/up.svg') center center/contain no-repeat;
+    background: #1a1a1a url('assets/svg/up.svg') center center/contain no-repeat;
+    opacity: 0.6;
   }
 }
 
@@ -53,7 +54,7 @@
   border: solid 1px variables.$grey-medium;
   border-radius: 14px;
   outline: none;
-  background: url('assets/svg/search.svg') 95% center no-repeat;
+  background: #1a1a1a url('assets/svg/search.svg') 95% center no-repeat;
   background-size: 15px;
   padding: 0 10px;
   line-height: 1;
@@ -61,7 +62,7 @@
   font-weight: 500;
 
   &::placeholder {
-    color: variables.$grey-medium;
+    color: white;
     font-weight: 400;
   }
 
