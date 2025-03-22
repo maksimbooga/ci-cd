@@ -6,7 +6,7 @@
   justify-content: center;
   width: 140px;
   height: 40px;
-  background-color: variables.$green-dark;
+  background-color: black;
   color: variables.$white-medium;
   border-radius: 20px;
   border: none;
@@ -15,7 +15,7 @@
 
   &:hover,
   &:active {
-    background-color: variables.$green-medium;
+    background-color: black;
     color: variables.$white-medium;
     text-decoration: none;
   }
@@ -31,8 +31,8 @@
   justify-content: center;
   width: 140px;
   height: 40px;
-  background-color: variables.$white-medium;
-  color: variables.$green-light;
+  background-color: black;
+  color: variables.$white-medium;
   border-radius: 20px;
   border: 1px variables.$green-light solid;
   transition: 0.5s;
@@ -51,7 +51,7 @@
   justify-content: center;
   width: 140px;
   height: 40px;
-  background-color: variables.$purple-medium;
+  background-color: black;
   color: variables.$white-medium;
   border-radius: 20px;
   border: none;
@@ -60,8 +60,8 @@
 
   &:hover,
   &:active {
-    background-color: variables.$purple-light;
-    color: variables.$white-medium;
+    background-color: variables.$white-medium;
+    color: black;
     text-decoration: none;
   }
 }
